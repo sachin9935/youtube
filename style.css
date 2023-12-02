@@ -1,3 +1,24 @@
 .main{
-    border:5px solid red;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image:url(img.webp);
+    background-size:cover;
+}
+h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Franklin Gothic Medium';
+    font-size:190px;
+    color:brown;
+    mix-blend-mode:difference;
 }
